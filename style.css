@@ -1,0 +1,19 @@
+img {
+  float: left;
+  margin: 20px
+}
+
+
+p {
+  font-family: "Georgia";
+  /* font-family: "Helvetica" */
+  font-size: 15px;
+}
+
+.block-div {
+  display: inline-block;
+}
+
+.page {
+  margin: 30px
+}
