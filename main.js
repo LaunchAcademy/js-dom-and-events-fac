@@ -1,27 +1,29 @@
-// Define event listener
-// let alertButton = document.getElementById('alert-button')
-//
-//
-// let alertCallbackFunction = () => {
-//   alert("We were clicked!")
-// }
-//
-// alertButton.addEventListener("click", alertCallbackFunction)
+// Define event listener for the button to alert a message
 
-// add alert callback, or a console.log callback
+let alertButton = document.getElementById("alert-button")
+let unicornImage = document.getElementById("unicorn-image")
 
-// seperate callback function
+let alertCallbackFunction = () => {
+  unicornImage.classList.add("hide")
+}
 
-// change an element's text
-
-// change to a callback that hides the element
+alertButton.addEventListener("click", alertCallbackFunction)
 
 // Have a simple form, and console.log as they input
 
-// let characterField = document.getElementById('character')
+let characterInputField = document.getElementById("character")
+
+let inputChangeCallbackFunction = (event) => {
+  console.log(event.target.value)
+}
+
+characterInputField.addEventListener("change", inputChangeCallbackFunction)
+
+
+
+
+
+
+
+
 //
-// let inputCallback = (event) => {
-//   console.log(event.target.value)
-// }
-//
-// characterField.addEventListener("change", inputCallback)
